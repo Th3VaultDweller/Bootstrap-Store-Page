@@ -15,126 +15,171 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-black fixed-top">
-        <!-- <div class="mx-auto p-1">
+    <div class="bg-black">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark bg-black fixed-top">
+            <!-- <div class="mx-auto p-1">
       <img src="static\RBLogoSolid.svg" class="d-flex justify-content-center" alt="logo" width="800" height="50">
     </div> -->
 
-        <!-- Navbar Burger Button -->
-        <div class="container-fluid">
-            <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- Navbar Burger Button -->
+            <div class="container-fluid">
+                <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!-- Offcanvas Menu -->
-            <div class="offcanvas offcanvas-start bg-black text-white" tabindex="-1" id="offcanvasDarkNavbar"
-                aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                    <!-- <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5> -->
-                    <button type="button" class="btn-close btn-close-white rounded-0" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+                <!-- Offcanvas Menu -->
+                <div class="offcanvas offcanvas-start bg-black text-white" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <!-- <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5> -->
+                        <button type="button" class="btn-close btn-close-white rounded-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
 
-                    <div class="mx-auto p-2">
-                        <img src="static\RBLogoSolid.svg" class="d-flex justify-content-center" alt="logo" width="300"
-                            height="50">
+                        <div class="mx-auto p-2">
+                            <img src="static\RBLogoSolid.svg" class="d-flex justify-content-center" alt="logo"
+                                width="300" height="50">
+                        </div>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav d-flex justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link d-flex justify-content-center" aria-current="page" href="#">
+                                    <h2>Home</h2>
+                                </a>
+                            </li>
+                            <li class="nav-link d-flex justify-content-center">
+                                <a class="nav-link" href="#">
+                                    <h2>Store</h2>
+                                </a>
+                            </li>
+                            <li class="nav-link d-flex justify-content-center">
+                                <a class="nav-link" href="#">
+                                    <h2>About Us</h2>
+                                </a>
+                            </li>
+                            <br>
+                            <li class="nav-item">
+                                <input type="text" class="form-control text-center" placeholder="Subscribe for updates!"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                            </li>
+                            <br>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://www.instagram.com/royalblooduk">
+                                    <img src="/static/social_media/InstagramLogo.svg" width="30" height="30">
+                                </a>
+
+                                <a href="https://www.facebook.com/RoyalBloodUK">
+                                    <img src="/static/social_media/FBLogo.svg" width="30" height="30">
+                                </a>
+
+                                <a href="https://www.twitter.com/royalblooduk">
+                                    <img src="/static/social_media/TwitterLogo.svg" width="30" height="30">
+                                </a>
+
+                                <a href="https://www.vk.com/royalblooduk">
+                                    <img src="/static/social_media/VKLogo.svg" width="30" height="30">
+                                </a>
+
+                                <a href="https://www.youtube.com/https://youtube.com/@royalblooduk?si=E6cKVjPLTWs8vyX6">
+                                    <img src="/static/social_media/YouTubeLogo.svg" width="30" height="30">
+                                </a>
+
+                                <a
+                                    href="https://open.spotify.com/artist/2S5hlvw4CMtMGswFtfdK15?si=Ft0BK9EDR6O4a8iyWll8Aw">
+                                    <img src="/static/social_media/SpotifyLogo.svg" width="30" height="30">
+                                </a>
+                            </div>
+                        </ul>
                     </div>
                 </div>
+            </div>
+        </nav>
+        <br>
+        <br>
 
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav d-flex justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link d-flex justify-content-center" aria-current="page" href="#">
-                                <h2>Home</h2>
-                            </a>
-                        </li>
-                        <li class="nav-link d-flex justify-content-center">
-                            <a class="nav-link" href="#">
-                                <h2>Store</h2>
-                            </a>
-                        </li>
-                        <li class="nav-link d-flex justify-content-center">
-                            <a class="nav-link" href="#">
-                                <h2>About Us</h2>
-                            </a>
-                        </li>
-                        <br>
-                        <li class="nav-item">
-                            <input type="text" class="form-control text-center" placeholder="Subscribe for updates!"
-                                aria-label="Username" aria-describedby="basic-addon1">
-                        </li>
-                        <br>
-                        <div class="d-flex justify-content-center">
-                            <a href="https://www.instagram.com/royalblooduk">
-                                <img src="/static/social_media/InstagramLogo.svg" width="30" height="30">
-                            </a>
-
-                            <a href="https://www.facebook.com/RoyalBloodUK">
-                                <img src="/static/social_media/FBLogo.svg" width="30" height="30">
-                            </a>
-
-                            <a href="https://www.twitter.com/royalblooduk">
-                                <img src="/static/social_media/TwitterLogo.svg" width="30" height="30">
-                            </a>
-
-                            <a href="https://www.vk.com/royalblooduk">
-                                <img src="/static/social_media/VKLogo.svg" width="30" height="30">
-                            </a>
-
-                            <a href="https://www.youtube.com/https://youtube.com/@royalblooduk?si=E6cKVjPLTWs8vyX6">
-                                <img src="/static/social_media/YouTubeLogo.svg" width="30" height="30">
-                            </a>
-
-                            <a href="https://open.spotify.com/artist/2S5hlvw4CMtMGswFtfdK15?si=Ft0BK9EDR6O4a8iyWll8Aw">
-                                <img src="/static/social_media/SpotifyLogo.svg" width="30" height="30">
-                            </a>
-                        </div>
-                    </ul>
+        <!-- Albums Carousel -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://open.spotify.com/album/0BFzNaeaNv4mahOzwZFGHK?si=F0j8_ZWoTQy1BG-IMzaOag">
+                        <img src="static/albums_carousel/RoyalBlood_desktopsplash_banner.png" class="d-block w-100"
+                            alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://open.spotify.com/album/3Rz6kF8eGqrDOEteo5YsBj?si=FjiPR7kvRy6seCLgjxityQ">
+                        <img src="/static/albums_carousel/HDWGSD_desktopsplash_banner.png" class="d-block w-100"
+                            alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://open.spotify.com/album/05aqnnpYVOvsX0SIzmIuxi?si=CPYRTLdITQuQJSEb_DQbtw">
+                        <img src="/static/albums_carousel/Typhoons_desktopsplash_banner.png" class="d-block w-100"
+                            alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://open.spotify.com/album/4B9IAqwQaPYHQi7kJcpPFQ?si=Zp7bbx0xTsyScqGLqH4Xiw">
+                        <img src="/static/albums_carousel/BackFromTheWaterBelow_desktopsplash_banner.jpg"
+                            class="d-block w-100" alt="...">
+                    </a>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </nav>
-    <br>
-    <br>
-    
-    <!-- Albums Carousel -->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <a href="https://open.spotify.com/album/0BFzNaeaNv4mahOzwZFGHK?si=F0j8_ZWoTQy1BG-IMzaOag">
-                    <img src="static/albums_carousel/RoyalBlood_desktopsplash_banner.png" class="d-block w-100" alt="...">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a href="https://open.spotify.com/album/3Rz6kF8eGqrDOEteo5YsBj?si=FjiPR7kvRy6seCLgjxityQ">
-                    <img src="/static/albums_carousel/HDWGSD_desktopsplash_banner.png" class="d-block w-100" alt="...">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a href="https://open.spotify.com/album/05aqnnpYVOvsX0SIzmIuxi?si=CPYRTLdITQuQJSEb_DQbtw">
-                    <img src="/static/albums_carousel/Typhoons_desktopsplash_banner.png" class="d-block w-100" alt="...">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a href="https://open.spotify.com/album/4B9IAqwQaPYHQi7kJcpPFQ?si=Zp7bbx0xTsyScqGLqH4Xiw">
-                    <img src="/static/albums_carousel/BackFromTheWaterBelow_desktopsplash_banner.jpg" class="d-block w-100" alt="...">
-                </a>
-            </div>
+
+        <br>
+        <br>
+
+        <!-- Merch Circles -->
+        <div class="d-flex justify-content-center">
+            <a href="">
+                <img src="/static/merch_circles/BackToTheWaterBelow_vinyl_circle.png" class="img-fluid" width="350" height="350">
+            </a>
+
+            <a href="">
+                <img src="/static/merch_circles/BackToTheWaterBelow_cassette_circle.png" class="img-fluid" width="350" height="350">
+            </a>
+
+            <a href="">
+                <img src="/static/merch_circles/BackToTheWaterBelow_cd_circle.png" class="img-fluid" width="350" height="350">
+            </a>
+
+            <a href="">
+                <img src="/static/merch_circles/BackToTheWaterBelow_slipmat_circle.png" class="img-fluid" width="350" height="350">
+            </a>
+
+            <a href="">
+                <img src="/static/merch_circles/RoyalBlood_hoodie_circle.png" class="img-fluid" width="350" height="350">
+            </a>
+
+            <a href="">
+                <img src="/static/merch_circles/RoyalBlood_sweatshirt_circle.png" class="img-fluid" width="350" height="350">
+            </a>
+
+            <a href="">
+                <img src="/static/merch_circles/Typhoons_cap_circle.png" class="img-fluid" width="350" height="350">
+            </a>
+
+            <a href="">
+                <img src="/static/merch_circles/BackToTheWaterBelow_tshirt_circle.png" class="img-fluid" width="350" height="350">
+            </a>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
+
     </div>
-
-    <!-- Merch Circles -->
-
 </body>
